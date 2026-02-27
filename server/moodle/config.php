@@ -19,7 +19,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost';
-$CFG->dataroot  = 'D:\\Work\\Novizant\\Projects\\Moodle\\Moodle-404\\server\\moodledata';
+$CFG->dataroot  = 'D:\\Projects\\php-core-moodle-lms\\server\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

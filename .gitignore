@@ -1,0 +1,20 @@
+# Ignore everything inside server
+server/*
+
+# But allow the Moodle code folder
+!server/moodle/
+!server/moodle/**
+
+# Ignore moodledata (runtime data, should not be in git)
+server/moodledata/
+
+# Optional: ignore logs and temp files if they appear inside moodle
+server/moodle/**/cache/
+server/moodle/**/temp/
+server/moodle/**/localcache/
+server/moodle/**/.sass-cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
